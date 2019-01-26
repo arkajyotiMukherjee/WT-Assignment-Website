@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <head>
+
+        <title>Tech Blog | Login</title>
+        <link rel="stylesheet" href="./style.css">
+
+        <style>
+            body{
+                background-image: url(../images/bkg.jpg);
+                background-size: cover;
+            }
+            .form-div{
+                width: 500px;
+                text-align: center;
+                border-radius: 10px;
+                margin: 12% auto;
+                padding: 50px;
+                background: #000000e4;
+            }
+            input[type='text'],input[type='password']{
+                text-align: center;
+                height:50px;
+                margin: 10px;
+                width: 250px;
+                border-radius: 50px;
+                outline: none;
+                border: none;
+            }
+            #login{
+                background-color: #1f2229;
+                color: #5fd4f4;
+                height: 40px;
+                font-size:20px ;
+                border-radius: 40px;
+                margin: 10px;
+                padding: 10px 55px;
+                outline: none;
+                border: none;
+            }
+            #login:hover{
+                cursor: pointer;
+                transition: box-shadow 350ms;
+                box-shadow: 5px 5px 10px #5fd4f45e;
+            }
+            #head{
+                color: #5fd4f4;
+                width: 100%;
+                margin: 20px;
+                font-size: 2em;
+                font-weight: 600;   
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="form-div">
+            <span id="head">Welcome to Tech Blog!</span>
+            
+            <form class="form" action="../index.html">
+                <input type="text" placeholder="User Name">
+                <br>
+                <input type="password" placeholder="Password">
+                <br>
+                <input type="submit" id='login' href="../index.html" value='Login'>
+            </form>
+        </div>
+    
+    </body>
+</html>

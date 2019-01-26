@@ -1,0 +1,107 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.header{
+    max-width: 100%;
+    height: 500px;
+    background-image: url('images/993.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.h-text-style{
+    font-weight: bold;
+    position: relative;
+    color:#597bf7;
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    margin: 0;
+    margin-right: 32px;
+}
+.login{
+    top: 16px;
+    font-size: 16px;
+}
+
+.head-text{
+    color: white;
+    font-size: 60px;
+    top: 100px;
+
+}
+.head-tag{
+    font-size: 30px;
+    top: 130px;
+    
+}
+
+.card{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3), 0 1px 3px 1px rgba(60,64,67,0.15);
+    background-color: white;
+    margin: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card:hover{
+    box-shadow: 0 3px 6px 0 rgba(60,64,67,0.3), 0 2px 6px 2px rgba(60,64,67,0.15);
+}
+
+.card-head{
+    width: 100%;
+    height: 50%;
+    color: #e0e0e0;
+    font-weight: bold;
+    text-align: center;
+    
+    background-size: cover;
+}
+
+.c1{
+    background-image: url('images/artificial-intelligence-blockchain-760x400.jpg');
+}
+.c2{
+    background-image: url('images/CloudComputing.jpg');
+}
+.c3{
+    background-image: url('images/binary_neural_network_artificial_intelligence_machine_learning_thinkstock_636754212_tinted-100747913-large.jpg');
+}
+.c4{
+    background-image: url('images/blockchain01.jpg');
+}
+.c5{
+    background-image: url('images/sixwaysandco.jpg');
+}
+
+
+
+.card-head span{
+    position: relative;
+    top: 40%;
+}
+.card-foot a{
+    font-size: 14px;
+    color: #3c5ac4;
+}
+
+.card-foot{
+    padding-left: 16px;
+}
+
+.topic-list{
+    list-style: none;
+    float: right;
+}
+
+.topic-list li{
+    float: left;
+}
+

@@ -1,0 +1,107 @@
+body{
+    padding: 0;
+    margin: 0;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+}
+a {
+    text-decoration: none;
+    color: #1f2229;
+}
+h1 {
+    font-size: 3em;
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+table{
+    width: 100%;
+}
+.column-one{
+    width: 5%;
+}
+
+.column-two{
+    width: 45%;
+}
+
+.column-three{
+    width: 45%;
+}
+
+.sub-column-one{
+    width: 60%;
+}
+
+.sub-column-two{
+    width: 40%;
+}
+
+.tabs{
+    background: #f0f0f0;
+}
+
+
+.header{
+    background: #1f2229;
+    color: #5fd4f4;
+}
+
+.link{
+    transition: background-color 550ms;
+}
+
+.link:hover {
+    background-color: #e0e0e0;
+}
+
+.refs a{
+    margin: 15px;
+    color: #5fd4f4;
+}
+.img-table{
+    height: 100px;
+    width: 200px;
+}
+.img-intro{
+    height: 100%; 
+    width: 80%;
+}
+.int-table-mid-td{  
+    border-left: 2px dotted #21618C;
+    border-right: 2px dotted #21618C;
+}
+.int-table{
+    border: 2px dotted #21618C;
+}
+#int-table-td{
+    border-top: 2px dotted #21618C;
+    border-bottom: 2px dotted #21618C;   
+}
+.btn{
+    transition: 550ms;
+    background-color: #D5D8DC;
+    border: 1px solid #D5D8DC; 
+    border-radius: 5px;
+    color: #17202A;
+}
+.btn:hover{
+    background-color: #B2BABB;
+}
+.int-table-mid-td{
+    transition: 550ms;
+}
+.int-table-mid-td:hover{
+    background-color: #EBEDEF; 
+    border-radius: 50px;
+}
+.faq-anchor{
+    color: #34495E;
+}
+.first-div{
+    border-left: 5px solid #bdc3c7;
+    padding: 10px;
+}
+
